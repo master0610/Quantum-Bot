@@ -1,11 +1,11 @@
 #!/usr/bin/bash
 
 clear
-pkg update && pkg upgrade
-apt install nodejs
-apt install ffmpeg
-pkg install imagemagick
-pkg install yarn
+sudo apt-get install update && upgrade
+sudo apt-get install nodejs
+sudo apt-get install ffmpeg
+sudo apt-get install imagemagick
+sudo apt-get install yarn
 yarn
 
 echo ""
