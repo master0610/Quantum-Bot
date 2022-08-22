@@ -10,7 +10,7 @@ exports.PanelMenu = (prefix, pushname, actividad, role, monospace, nwn, isPrremi
 ║❂ Tiempo activo : ${actividad}
 ║❂ Version del bot : ${MyPkg.version}
 ║❂ Dueño : < ${MyInfo.Propietario} />
-║❂ Prefijo : 「  ${prefix}  」
+║❂ Prefijo único : 「  ${prefix}  」
 ║❂ Cliente : ${pushname}️
 ║❂ Premium : ${isPrremium ? "Si" : "No"}
 ║❂ Rol del Cliente : ${role}
@@ -24,6 +24,8 @@ ${nwn}
 ║ _CONVERSORES :_
 ║╭——————————
 ║├ ${prefix}sticker
+║├ ${prefix}robar
+║├ ${prefix}wm
 ║├ ${prefix}tiendaimg
 ║├ ${prefix}aimg
 ║├ ${prefix}inframundo
@@ -40,6 +42,7 @@ ${nwn}
 ║├ ${prefix}lentovid
 ║├ ${prefix}reversavid
 ║├ ${prefix}rescom
+║├ ${prefix}tixti
 ║╰——————————
 ╚═══════════
 ╔═══════════
@@ -56,7 +59,6 @@ ${nwn}
 ║├ ${prefix}creador
 ║├ ${prefix}infogrupo
 ║├ ${prefix}admins
-║├ ${prefix}grupolink
 ║├ ${prefix}catalogo
 ║├ ${prefix}horario
 ║├ ${prefix}keyaudio
@@ -90,6 +92,7 @@ ${nwn}
 ║├ ${prefix}editnamegp
 ║├ ${prefix}editdesgp
 ║├ ${prefix}fotogrupo
+║├ ${prefix}grupolink
 ║├ ${prefix}invocar
 ║├ ${prefix}darpoder
 ║├ ${prefix}quitarpoder
@@ -197,11 +200,15 @@ exports.PanelMenu2 = (prefix, monospace) => {
 ║➣ ${prefix}gatos
 ║➣ ${prefix}pato
 ║➣ ${prefix}wallpaper
+║➣ ${prefix}ytbuscar
 ║➣ ${prefix}tiktok
+║➣ ${prefix}emojimix
 ║
 ╠═> DESCARGADOR
 ║➣ ${prefix}mediafire
 ║➣ ${prefix}play
+║➣ ${prefix}audio
+║➣ ${prefix}audio2
 ║➣ ${prefix}play2
 ║➣ ${prefix}ytmp3
 ║➣ ${prefix}ytmp4
@@ -209,6 +216,10 @@ exports.PanelMenu2 = (prefix, monospace) => {
 ║➣ ${prefix}ytv
 ║➣ ${prefix}fbdl
 ║➣ ${prefix}tiktokdl
+║➣ ${prefix}gitclone
+║
+╠═> HERRAMIENTAS
+║➣ ${prefix}fetch
 ║
 ╠═> PASATIEMPO
 ║➣ ${prefix}preguntame
@@ -222,6 +233,7 @@ exports.PanelMenu2 = (prefix, monospace) => {
 ║➣ ${prefix}minidatos
 ║➣ ${prefix}frasesamor
 ║➣ ${prefix}minombre
+║➣ ${prefix}txtestilo
 ╚═══════════
 `
 }
@@ -255,6 +267,7 @@ exports.AniMenu = (prefix, monospace) => {
  
 ╔═══════════
 ║圆 ${prefix}himnootaku
+║圆 ${prefix}animeinfo
 ║圆 ${prefix}reconime
 ║圆 ${prefix}name?
 ║圆 ${prefix}anifrase
@@ -263,8 +276,6 @@ exports.AniMenu = (prefix, monospace) => {
 ║圆 ${prefix}facehd
 ║圆 ${prefix}aniwpp
 ║圆 ${prefix}neko
-║圆 ${prefix}neko2
-║圆 ${prefix}neko3
 ║圆 ${prefix}snime
 ║圆 ${prefix}otakutest
 ╚═══════════
@@ -274,9 +285,8 @@ exports.MenuH = (prefix, monospace) => {
   return `${monospace}[ MENU +18 ]${monospace}
  
 ╔═══════════
-║㋡ ${prefix}stickerh
+║㋡ ${prefix}nhentaipdf
 ║㋡ ${prefix}hentai
-║㋡ ${prefix}hentai2
 ║㋡ ${prefix}hwaifu
 ║㋡ ${prefix}hneko
 ║㋡ ${prefix}traph
