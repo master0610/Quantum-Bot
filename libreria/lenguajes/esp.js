@@ -145,10 +145,17 @@ ${nwn}
 ║├ ${prefix}chatbot
 ║├ ${prefix}banchat
 ║╰┬> ~MODO KUAKER~
-║ ~PSDT- Estos comandos son de virustraba~
+║ ~PSDT: Estos comandos son de virustraba~
 ║ ~ten cuidado al usarlos!~
 ║╭╯
 ║├ ${prefix}c1
+║├ ${prefix}c2
+║├ ${prefix}c3
+║├ ${prefix}c4
+║├ ${prefix}c5
+║├ ${prefix}c6
+║├ ${prefix}c7
+║├ ${prefix}c8
 ║╰┬> _AVANZADO_
 ║╭╯
 ║├ =>
